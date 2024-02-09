@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://kit.fontawesome.com/39826f9331.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">PizzaRita</a>
+
+            <div class="nav__menu show-menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">News</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About US</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pizzas" class="nav__link">Pizzas</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#visit" class="nav__link">visit</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#location" class="nav__link">Location</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <img src="./images/output-onlinepngtools.png" alt="nav-image" class="nav__image">
+            </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <section class="home section" id="home">
+            <img src="./images/home-bg.jpg" alt="image" class="home__bg">
+            <div class="home__shadow"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Select your favorite pizza <br> rich pizzas
+                    </h1>
+
+                    <a href="#" class="button">Select pizzas</a>
+
+                    <img src="./images/121-1217302_pizza-and-sandwiches-pizza-png-white.png" alt="image" class="fresh__pizza">
+                </div>
+                <div class="home__image">
+                    <img src="./images/vecteezy_pepperoni-pizza-isolated-illustration-ai-generative_23742417.png" alt="image" class="home__img">
+                </div>
+                <footer class="home__footer">
+                    <div class="home__location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Zabeel. Zabeel 1 #11 <br> Dubai </span>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    <!-- ================== new setion ======================  -->
+        <section class="new section" id="new">
+            <h2 class="section__title">New Pizza</h2>
+            
+            <div class="new__container container grid">
+                <div class="new__content">
+                    <article class="new__card">
+                        <div class="new__data">
+                            <h2 class="new__title">Italian meat</h2>
+                            <p class="new__description">Fresh italian meat freshly shipped
+                                quickly
+                            </p>
+                        </div>
+
+                        <img src="./images/30-pizza-png-image.png" alt="image" class="new__img">
+                    </article>
+                </div>
+                <a href="#" class="new__button button">See More Pizzas</a>
+            </div>
+        </section>
+    <!-- about -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title">About US</h2>
+
+                    <p class="about__description">
+                        Welcome to PizzaRita,
+                         where passion for pizza meets the convenience of online ordering!
+                         Founded with a love for crafting delicious pizzas and a dedication to exceptional customer service,
+                         we've been serving up piping hot pies to pizza enthusiasts like you since 2022.
+                    </p>
+
+                    <a href="#" class="button">Know More</a>
+
+                    <img src="./images/output-onlinepngtools (1).png" alt="image" class="about__pizza">
+                </div>
+
+                <img src="./images/937039.jpg" alt="image" class="about__img">
+            </div>
+        </section>
+    <!--=================== Pizzas ===================-->
+        <section class="pizzas section" id="pizzas">
+            <h2 class="section__title">Pizzas</h2>
+
+            <div class="pizzas__container container grid">
+                <article class="pizza__card">
+                    <img src="./images/vecteezy_pepperoni-pizza-isolated-illustration-ai-generative_23742417.png"
+                     alt="image" class="pizza__img">
+
+                     <div class="pizza__data">
+                        <h2 class="pizza__title">Pepperoni</h2>
+                        <span class="pizza__subtitle">pizza</span>
+                        <h3 class="pizza__price">$20.00</h3>
+                     </div>
+
+                     <button class="pizza__button button">
+                        <i class="fa-solid fa-plus"></i>
+                     </button>
+                </article>
+
+                <article class="pizza__card">
+                    <img src="./images/30-pizza-png-image.png"
+                     alt="image" class="pizza__img">
+
+                     <div class="pizza__data">
+                        <h2 class="pizza__title">Italian Meat</h2>
+                        <span class="pizza__subtitle">pizza</span>
+                        <h3 class="pizza__price">$22.00</h3>
+                     </div>
+
+                     <button class="pizza__button button">
+                        <i class="fa-solid fa-plus"></i>
+                     </button>
+                </article>
+
+                <article class="pizza__card">
+                    <img src="./images/20d22e9fd90b6ec066e84ac52ac747eb.png"
+                     alt="image" class="pizza__img">
+
+                     <div class="pizza__data">
+                        <h2 class="pizza__title">Shawarma Pizza</h2>
+                        <span class="pizza__subtitle">pizza</span>
+                        <h3 class="pizza__price">$21.00</h3>
+                     </div>
+
+                     <button class="pizza__button button">
+                        <i class="fa-solid fa-plus"></i>
+                     </button>
+                </article>
+            </div>
+            
+        </section>
+    
+    <!--==================visit=====================-->
+        <section class="visit section" id="visit">
+            <div class="visit__container">
+                <img src="./images/pizza-italy-authentic-classic.jpg" 
+                alt="image" class="visit__bg">
+                <div class="visit__shadow"></div>
+
+                <div class="visit__content container grid">
+                    <div class="visit__data">
+                        <h2 class="section__title">Visit Us</h2>
+
+                        <p class="visit__description">
+                         Thank you for choosing PizzaRita for your pizza needs.
+                         We look forward to serving you!
+                        </p>
+
+                        <a href="#" class="visit__button button">See Location</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+    <!--===================location==================-->
+
+<!-- Footer -->
+        <footer class="footer">
+
+              
+
+            <div class="footer__container container grid">
+               
+                <div>
+                    <a href="#" class="footer__logo">PizzaRita</a>
+                    <p class="footer__description">
+                        We make the most luxurious and delicious pizza <br> in the village
+                    </p>
+                </div> 
+                
+                <div class="footer__content grid">
+                    <div>
+                        <h3 class="footer__title">Address</h3>
+                        
+                        <ul class="footer__list">
+                            <li>
+                                <address class="footer__info">Zabeel. Zabeel 1 #11 <br> Dubai</address>
+                            </li>
+
+                            <li>
+                                <address class="footer__info">2PM - 1AM</address>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Contact Us</h3>
+                        
+                        <ul class="footer__list">
+                            <li>
+                                <address class="footer__info">PizzaRita@gmail.com</address>
+                            </li>
+
+                            <li>
+                                <address class="footer__info">+971 55 111 2222</address>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Follow Us</h3>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://www.youtube.com/" target="_blank">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="./images/121-1217302_pizza-and-sandwiches-pizza-png-white.png" alt="image" class="footer__img">
+            </div>
+        </footer>
+
+    <!------- SCroll up --------->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!----- scroll reveal ---->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!--- main js ---->
+    <script src="./js/main.js" ></script>
+
+
+  </body>
+</html>
